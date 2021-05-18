@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+.row input {
+  width: 20px;
+  height: 20px;
+}
+
+#todoTextInput {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#input-completed {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#input-completed-label {
+  font-size: 20px;
+}
+
+#input-completed-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+#create {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(142, 143, 240);
+  border-radius: 5px;
+  color: rgb(35, 30, 36);
+  font-weight: 500;
+  width: 70px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+#todo-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
